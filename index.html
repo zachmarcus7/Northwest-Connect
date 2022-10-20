@@ -1,0 +1,109 @@
+﻿<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="lib/pagePiling.js-master/jquery.pagepiling.css">
+    <title>Northwest Connect</title>
+  </head>
+  <body>
+  
+    <div id="pagepiling">
+      <div class="section one">
+
+        <div class="container-fluid banner-container">
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+              <h1 class="banner-header">Northwest Connect</h1>
+              <h4 class="banner-sub-header">Sub Header Here</h4>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+        
+
+      </div>
+
+      <div class="section two">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <h1 class="banner-header">Your Partner In Getting Connected</h1>
+            <p class="banner-sub-header">
+              We're the best in our field, and it's all thanks to the incredible relationships we've formed with our clients. Unlike our competitors, we're invested in developing a personal connection with each and every one of our customers, by providing quality service and being available to you 24/7. Get in touch with us when you're ready to learn more; we can't wait to meet you!
+            </p>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+
+      <div class="section three">
+        Some Section
+      </div>
+      <div class="section four">
+        Some Section
+      </div>
+      <div class="section five">
+        Some Section
+      </div>
+    </div>
+  
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/swiper/swiper-bundle.js"></script>
+    <script src="lib/swiper/swiper-bundle.min.js"></script>
+    <script src="lib/pagePiling.js-master/jquery.pagepiling.js"></script>
+
+    <script>
+
+      
+      $(document).ready(function() {
+        $('#pagepiling').pagepiling();
+      });
+      
+
+      /*
+      
+      $(document).ready(function() {
+        $('#pagepiling').pagepiling({
+            menu: null,
+              direction: 'vertical',
+              verticalCentered: true,
+              sectionsColor: [],
+              anchors: [],
+              scrollingSpeed: 700,
+              easing: 'swing',
+              loopBottom: false,
+              loopTop: false,
+              css3: true,
+              navigation: {
+                  'textColor': '#000',
+                  'bulletsColor': '#000',
+                  'position': 'right',
+                  'tooltips': ['section1', 'section2', 'section3', 'section4']
+              },
+              normalScrollElements: null,
+              normalScrollElementTouchThreshold: 5,
+              touchSensitivity: 5,
+              keyboardScrolling: true,
+              sectionSelector: '.section',
+              animateAnchor: false,
+
+          //events
+          onLeave: function(index, nextIndex, direction){},
+          afterLoad: function(anchorLink, index){},
+          afterRender: function(){},
+        });
+      });
+
+      */
+    </script>
+  </body>
