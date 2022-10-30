@@ -225,6 +225,10 @@ p {
   .footer-left {
     text-align: right;
   }
+
+  #review-carousel {
+    min-height: 50vh;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -284,6 +288,10 @@ p {
       padding-top: 5%;
   }
 
+  #review-carousel {
+    min-height: 40vh;
+  }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -297,6 +305,10 @@ p {
 
   .mobile-container {
       padding-top: 4%;
+  }
+
+  #review-carousel {
+    min-height: 35vh;
   }
 }
 
