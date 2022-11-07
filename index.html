@@ -142,7 +142,7 @@
       <div class="section four">
 
         <div class="center">
-          <h1 class="banner-header fade-up" id="page-four-header">Testimonials</h1>
+          <h1 class="banner-header fade-up pt-3" id="page-four-header">Testimonials</h1>
         </div>
 
         <!-- carousel start -->
@@ -291,6 +291,16 @@
       <!-- fifth page end -->
     </div>
 
+    <!-- request a quote start -->
+    <div 
+      id="quote"
+      onclick="contact()"
+      class="quote">
+      <i class="fa-solid fa-comment"></i>
+      <h6>Request a Quote</h6>
+    </div>
+    <!-- request a quote end -->
+
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/pagePiling.js-master/jquery.pagepiling.js"></script>
@@ -353,26 +363,35 @@
             const subThree = document.getElementById("page-three-sub");
             const swiper   = document.getElementById("swiper");
             const subFive  = document.getElementById("page-five-sub");
+            const quote    = document.getElementById("quote");
 
             // this is for applying fade-in effects to header and subheaders
+            if (index == 1) {
+              quote.classList.remove('no-display');
+            }
+
             if (index == 2) {
               headerTwo.classList.add('faded-horizontal');
               subTwo.classList.add('faded-horizontal');
+              quote.classList.remove('no-display');
             }
 
             if (index == 3) {
               headerThree.classList.add('faded-horizontal');
               subThree.classList.add('faded-horizontal');
+              quote.classList.remove('no-display');
             }
 
             if (index == 4) {
               headerFour.classList.add('faded-horizontal');
               swiper.classList.add('faded-horizontal');
+              quote.classList.add('no-display');
             }
 
             if (index == 5) {
               headerFive.classList.add('faded-horizontal');
               subFive.classList.add('faded-horizontal');
+              quote.classList.add('no-display');
             }
           },
           afterRender: function(){},
