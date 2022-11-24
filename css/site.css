@@ -310,7 +310,11 @@ p {
 
 @media only screen and (min-width: 1024px) {
   h1 {
-         font-size: 64px;
+    font-size: 64px;
+  }
+
+  h5 {
+    font-size: 18px;
   }
 
   p {
@@ -333,53 +337,31 @@ p {
 
 }
 
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: 2200px) {
   h1 {
-      font-size: 150px;
-  }
-
-  h2 {
-      font-size: 150px;
-  }
-
-  h3 {
-      font-size: 100px;
-  }
-
-  h4 {
-      font-size: 80px;
+    font-size: 88px;
   }
 
   h5 {
-      font-size: 50px;
+    font-size: 25px;
   }
 
   h6 {
-      font-size: 46px;
+    font-size: 24px;
   }
 
-  p, a, i {
-      font-size: 44px;
+  p {
+    font-size: 23px;
   }
 
-  .fa-solid {
-      font-size: 48px !important;
+  #pp-nav li, .pp-slidesNav li {
+    height: 25px !important;
+    width: 25px !important;
   }
 
-  .icon-large-screen {
-      font-size: 100px !important;
-  }
-
-  .mobile-container {
-      padding-top: 2%;
-  }
-
-  .project-single-container {
-      padding-bottom: 9% !important;
-  }
-
-  .resume-container {
-      height: 100% !important;
+  #pp-nav span, .pp-slidesNav span {
+    height: 20px !important;
+    width: 20px !important;
   }
 
 }
