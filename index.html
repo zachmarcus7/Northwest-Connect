@@ -119,16 +119,92 @@
 
         <div class="container-fluid second-container">
 
-          <div class="row first-row">
+          <div class="row third-row">
             <div class="col-1"></div>
-            <div class="col-10">
-              <h1 class="banner-header fade-right" id="page-three-header">Personalized Solutions</h1>
-              <h5 class="banner-sub-header pb-3 fade-up-right" id="page-three-sub">
-                We'll help you create a tailor-made solution that's specific to your needs and wants. Book today and experience the top-notch quality of our service firsthand.
-              </h5>
+            <div class="col-md-10 col-11 row">
+
+              <!-- col left start -->
+              <div class="col-xl-6">
+                <h1 class="banner-header fade-right" id="page-three-header">Personalized Solutions</h1>
+                <h5 class="banner-sub-header pb-3 fade-up-right" id="page-three-sub">
+                  We'll help you create a tailor-made solution that's specific to your needs and wants. Book today and experience the top-notch quality of our service firsthand.
+                </h5>
+              </div>
+              <!-- col left end -->
+
+              <!-- col right start -->
+              <div class="col-xl-6 row">
+
+                <!-- faded details container one start -->
+                <div class="faded-details-container pl-0 col-4">
+
+                  <div class="faded-details-outer">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <hr>
+
+                    <h5 class="desktop-h5">
+                      Give us a call
+                    </h5>
+
+                    <h5 class="mobile-h5">
+                      Call
+                    </h5>
+
+                    <p>Let us know what you are looking for.</p>
+                  </div>
+
+                </div>
+                <!-- faded details container one end -->
+
+                <!-- faded details container two start -->
+                <div class="faded-details-container col-4">
+
+                  <div class="faded-details-outer">
+                    <i class="fa-solid fa-receipt"></i>
+                    <hr>
+
+                    <h5 class="desktop-h5">
+                      Book with us
+                    </h5>
+
+                    <h5 class="mobile-h5">
+                      Book
+                    </h5>
+
+                    <p>Allow us to set your schedule for you.</p>
+                  </div>
+
+                </div>
+                <!-- faded details container two end -->
+
+                <!-- faded details container three start -->
+                <div class="faded-details-container col-4">
+
+                  <div class="faded-details-inner">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <hr>
+                    <h5>
+                      Stay busy
+                    </h5>
+                    <p>With us, you can focus on what matters.</p>
+
+                    <button 
+                      class="learn-more-button"
+                      onclick="contact()">
+                      <p>Book Today</p>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                  </div>
+
+                </div>
+                <!-- faded details container three end -->
+
+              </div>
+              <!-- col right end -->
 
             </div>
-            <div class="col-1"></div>
+            <div class="col-md-1 col-0"></div>
           </div>
 
         </div>
@@ -165,7 +241,7 @@
                   <div class="carousel-item active">
                     <div class="review-container-main">
                       <div class="green-background review-container">
-                        <div class="outline m-2">
+                        <div class="outline-tb">
                           <i class="fa-solid fa-quote-left"></i>
                           <p>
                             We used to use a company that outsourced their customer service to foreign countries. After that experience, we decided to go with a company that had a better touch for reliability. Northwest Connect hands down has always delivered. We've never had to wait on the phone to speak with someone.
@@ -183,7 +259,7 @@
                   <div class="carousel-item">
                     <div class="review-container-main">
                       <div class="green-background review-container">
-                        <div class="outline m-2">
+                        <div class="outline-tb">
                           <i class="fa-solid fa-quote-left"></i>
                           <p>
                             Although I'm a relatively newer customer - I've only been with them for a few weeks now - I would still recommend them. I haven't had any downtimes or problems ever since signing up with them, and their rates are a lot better than what I've dealt with in the past. They've lived up to expectations.                          </p>
@@ -200,7 +276,7 @@
                   <div class="carousel-item">
                     <div class="review-container-main">
                       <div class="green-background review-container">
-                        <div class="outline m-2">
+                        <div class="outline-tb">
                           <i class="fa-solid fa-quote-left"></i>
                           <p>
                             After going out on my own, I've gone through a few different freight brokers, but I found Northwest Connect to be an excellent one and I am very satisfied with their service. It seems to be a well-organized, easy to use, and very customer service oriented company. Would definitely recommend.    
@@ -236,12 +312,33 @@
               We're here to help! Send any questions you have over to us. We look forward to hearing from you.
             </h5>
 
-            <!-- bottom line start -->
-            <div class="bottom-line-container">
-              <div class="bottom-diamond"></div>
-              <div class="bottom-line"></div>
+            <!-- external pdf buttons start -->
+            <div class="row">
+
+              <div class="col-6">
+
+                <a
+                  href="quote.pdf">
+                  <button 
+                    class="pdf-button"
+                    onclick="contact()">
+                    <p>Request Quote</p>
+                  </button>
+                </a>
+
+              </div>
+
+              <div class="col-6">
+                <button 
+                  class="pdf-button"
+                  onclick="contact()">
+                  <p>Shipper Packet</p>
+                </button>
+              </div>
+
             </div>
-            <!-- bottom line end -->
+            <!-- external pdf buttons end -->
+
           </div>
 
           <!-- footer start -->
