@@ -479,7 +479,7 @@ p {
       opacity: 0;
       transform: translateY(40%);
   }
-  70% {
+  40% {
       visibility: hidden;
       opacity: 0;
       transform: translateY(40%);
@@ -495,8 +495,13 @@ p {
   0% {
       visibility: hidden;
       opacity: 0;
-      transform: translate(-10%, 80%);
+      transform: translate(-10%, 40%);
   }
+  40% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-10%, 40%);
+}
   100% {
       visibility: visible;
       opacity: 1;
@@ -509,6 +514,11 @@ p {
       visibility: hidden;
       opacity: 0;
       transform: translateX(-10%);
+  }
+  40% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-10%);
   }
   100% {
       visibility: visible;
@@ -658,14 +668,14 @@ ul li {
 
 .banner-header {
   font-weight: 400 !important;
-  animation: fade-right 0.9s ease-out;
+  animation: fade-right 1.3s ease-out;
   max-width: 450px;
   white-space: wrap;
 }
 
 .banner-sub-header {
   color: white;
-  animation: fade-up-right 0.9s ease-out;
+  animation: fade-up-right 1.3s ease-out;
   max-width: 450px;
 }
 
@@ -680,7 +690,7 @@ ul li {
   padding-bottom: 8px;
   padding-right: 30px;
   padding-left: 30px;
-  animation: fade-right 1s ease-out;
+  animation: fade-right 1.3s ease-out;
 }
 
 .learn-more-button p {
