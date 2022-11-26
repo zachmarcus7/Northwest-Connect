@@ -94,7 +94,7 @@
             <div class="col-10">
               <h1 class="banner-header fade-right" id="page-two-header">Getting You Connected</h1>
               <h5 class="banner-sub-header pb-3 fade-up-right" id="page-two-sub">
-                Unlike our competitors, we're invested in developing a personal connection with each and every one of our customers, by providing quality service and being available to you around the clock.
+                We're invested in developing a connection with each and every one of our customers, by providing quality service and being available to you around the clock.
               </h5>
 
               <!-- bottom div start -->
@@ -133,10 +133,10 @@
               <!-- col left end -->
 
               <!-- col right start -->
-              <div class="col-xl-6 row">
+              <div class="col-xl-6 row p-0 m-0">
 
                 <!-- faded details container one start -->
-                <div class="faded-details-container pl-0 col-4">
+                <div class="faded-details-container pl-0 col-4 fade-up" id="details-one">
 
                   <div class="faded-details-outer">
                     <i class="fa-solid fa-phone-flip"></i>
@@ -157,7 +157,7 @@
                 <!-- faded details container one end -->
 
                 <!-- faded details container two start -->
-                <div class="faded-details-container col-4">
+                <div class="faded-details-container col-4 fade-up" id="details-two">
 
                   <div class="faded-details-outer">
                     <i class="fa-solid fa-receipt"></i>
@@ -178,7 +178,7 @@
                 <!-- faded details container two end -->
 
                 <!-- faded details container three start -->
-                <div class="faded-details-container col-4">
+                <div class="faded-details-container col-4 fade-up" id="details-three">
 
                   <div class="faded-details-inner">
                     <i class="fa-solid fa-truck-fast"></i>
@@ -461,6 +461,9 @@
             const swiper   = document.getElementById("swiper");
             const subFive  = document.getElementById("page-five-sub");
             const quote    = document.getElementById("quote");
+            const detailsOne = document.getElementById("details-one");
+            const detailsTwo = document.getElementById("details-two");
+            const detailsThree = document.getElementById("details-three");
 
             // this is for applying fade-in effects to header and subheaders
             if (index == 1) {
@@ -477,6 +480,9 @@
               headerThree.classList.add('faded-horizontal');
               subThree.classList.add('faded-horizontal');
               quote.classList.remove('no-display');
+              detailsOne.classList.add('faded-horizontal');
+              detailsTwo.classList.add('faded-horizontal');
+              detailsThree.classList.add('faded-horizontal');
             }
 
             if (index == 4) {
